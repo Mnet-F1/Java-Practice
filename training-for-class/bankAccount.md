@@ -11,13 +11,13 @@
        5. 5번을 누르면 종료한다
     3. 1 ~ 2번을 반복한다
   - 출력예시
-  ![Alt text](image-4.png)
-  ![Alt text](image-5.png)
-  ![Alt text](image-6.png)
-  ![Alt text](image-7.png)
-  ![Alt text](image-8.png)
-  ![Alt text](image-9.png)
-  ![Alt text](image-10.png)
+    ![Alt text](./images/image-4.png)
+    ![Alt text](./images/image-5.png)
+    ![Alt text](./images/image-6.png)
+    ![Alt text](./images/image-7.png)
+    ![Alt text](./images/image-8.png)
+    ![Alt text](./images/image-9.png)
+    ![Alt text](./images/image-10.png)
 - 조건
   - 클래스
     - Main
@@ -45,6 +45,7 @@
   - 계좌의 일치 여부는 계좌 번호로 확인하면 됩니다
   - 캡슐화에 의해서 setter와 getter로 멤버를 조회한다는 걸 잊지마세요
 - 답
+
   ```java
   package ch06.bankAccount;
 
@@ -87,6 +88,7 @@
       }
   }
   ```
+
   ```java
   package ch06.bankAccount;
 
@@ -126,6 +128,7 @@
       }
   }
   ```
+
   ```java
   package ch06.bankAccount;
 

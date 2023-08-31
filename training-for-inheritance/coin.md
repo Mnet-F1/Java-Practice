@@ -1,13 +1,13 @@
 - 문제
   각국의 통화 화폐가 아래외 같이 존재한다
-  ![Alt text](image.png)
+  ![Alt text](./images/image.png)
   - KRW: 한국 원화
   - USD: 미국 달라
   - EUR: 유럽 유로
   - JPY: 일본 엔화
-  위 다이어그램을 통하여 출력 예시와 같이 출력하시오
+    위 다이어그램을 통하여 출력 예시와 같이 출력하시오
   - 출력 예시
-  ![Alt text](image-1.png)
+    ![Alt text](./images/image-1.png)
 - 조건
   - 부모 클래스 생성
     - toString 메소드 정의
@@ -32,6 +32,7 @@
     - 부모 클래스의 타입으로 배열 안에 모든 자식 객체들을 넣을 것
     - 배열에 있는 정보 출력
 - 답
+
   ```java
   public class Currency {
       private double amount;
@@ -47,6 +48,7 @@
       }
   }
   ```
+
   ```java
   public class EUR extends Currency{
       private double amount;
@@ -57,6 +59,7 @@
       }
   }
   ```
+
   ```java
   public class JPY extends Currency{
       private double amount;
@@ -67,6 +70,7 @@
       }
   }
   ```
+
   ```java
   public class KRW extends Currency {
       private double amount;
@@ -77,6 +81,7 @@
       }
   }
   ```
+
   ```java
   public class USD extends Currency{
       private double amount;
@@ -87,6 +92,7 @@
       }
   }
   ```
+
   ```java
   public class Main {
       public static void main(String[] args) {

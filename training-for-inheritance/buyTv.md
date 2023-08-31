@@ -2,9 +2,9 @@
 
 - 문제 : 각 TV의 이름과 가격을 출력하세요
   - 다이어그램
-    ![Alt text](image-2.png)
+    ![Alt text](./images/image-2.png)
   - 출력 예시
-    ![Alt text](image-3.png)
+    ![Alt text](./images/image-3.png)
 - 조건
 
   - main : 출력
@@ -105,7 +105,7 @@
 
 - 문제 : 물가 인상으로 tv가격이 올랐습니다!
   - 출력예시
-    ![Alt text](image-4.png)
+    ![Alt text](./images/image-4.png)
 - 조건
   - 부모 클래스를 추상 클래스로 만들고 setPrice라는 추상 메서드 정의
   - 부모의 필드 변수 price 재정의
@@ -177,7 +177,7 @@
 - 문제 : 각 tv 기능을 뽑아보자
   - SmartTV 클래스에 넷플릭스로 접속하는 기능을 만들어보자
   - 출력 예시
-    ![Alt text](image-5.png)
+    ![Alt text](./images/image-5.png)
 - 조건
   - 스마트티비 클래스에 openNetflix 메소드 생성
   - 메인에서 넷플릭스 단어를 인자로 받아서 출력 예시와 같이 출력할 것

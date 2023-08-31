@@ -1,8 +1,8 @@
 - 문제 : 아래의 출력 예와 요구사항을 만족하는 격투 게임을 완성하시오
-  ![Alt text](image.png)
+  ![Alt text](./images/image.png)
   - 영웅은 펀치를 통해 상대 영웅에게 피해를 입힐 수 있다.
   - 결과창
-  ![Alt text](image-1.png)
+    ![Alt text](./images/image-1.png)
 - 조건
   1. Hero 클래스를 만들것
      1. 필드 변수는 name, hp
@@ -22,6 +22,7 @@
   - battle 메소드에서 지역 변수를 정의하여 공수를 결정하자!
   - 메소드의 존재 명분과 실행 순서를 잘 생각해보자
 - 답
+
   ```java
   public class Hero {
       public String name;
@@ -59,6 +60,7 @@
 
   }
   ```
+
   ```java
   public class Main {
       public static void main(String[] args) {

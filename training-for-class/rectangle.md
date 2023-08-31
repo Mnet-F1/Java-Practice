@@ -2,7 +2,7 @@
   사각형의 길이와 너비를 확인하고 길이, 너비, 넓이, 둘레를 구하시오(perimeter)
   또한 너비를 25로 변환한 길이, 너비, 넓이, 둘레도 구하시오
   출력 예시는
-  ![Alt text](image-12.png)
+  ![Alt text](./images/image-12.png)
 - 조건
   주어진 사각형의 길이와 넓이는 각각 12, 23, 바꿀 너비는 25임
   - 클래스
@@ -16,6 +16,7 @@
   - getter , setter ( 필드 변수 직접 접근하지 말것 )
     - 이클립스 기준 단축키 : 옵션 + 컨트롤 + s 에서 getter setter 고르기
 - 답
+
   ```jsx
   public class RectangleRunner {
 
@@ -29,6 +30,7 @@
 
   }
   ```
+
   ```jsx
   public class Rectangle {
   	private int length;

@@ -1,5 +1,6 @@
 - 문제
   아래의 코드는 굉장히 반복적입니다!! 예를 들어 포멧팅의 \*를 X로 바꾸고 싶다면 모든 메소드의 코드를 바꿔야 하죠 개발자는 귀찮은 사람들이기 때문에 코드를 최대한 간단히 하고 싶습니다
+
   ```jsx
   public class MultiplicationTableRunner {
 
@@ -12,7 +13,9 @@
 
   }
   ```
+
   ⇒ 이 코드로 테스트 하세요
+
   ```jsx
   public class MultiplicationTable {
   	// 5*1 = 5
@@ -38,10 +41,13 @@
 
   }
   ```
+
   ⇒ 이 코드를 수정하세요, 중복되는 코드를 파악하고 메소드를 활용해 축약해보세요
-  ![Alt text](image-11.png)
+  ![Alt text](./images/image-11.png)
   ⇒ 출력 예시
+
 - 답
+
   ```jsx
   public class MultiplicationTable {
   	// 5*1 = 5

@@ -1,7 +1,7 @@
 - 문제
   2중 if문을 연습할 겸 어린이 보호 구역에서 자동차의 속도를 제어해보자
   - 출력 예시
-  ![Alt text](image-3.png)
+    ![Alt text](./images/image-3.png)
   1. 자동차 출발 문구 출력
   2. 속력 입력
   3. 30키로 이상이면 속도를 줄여주세요 출력
@@ -28,6 +28,7 @@
     - dirverMotion()
   - 무조건 사용을 제외한 다른 메소드는 이름도 변경 가능하고 용도도 변경 가능함!
 - 답
+
   ```java
   public class CarExample {
       public static void main(String[] args) {
@@ -39,6 +40,7 @@
       }
   }
   ```
+
   ```java
   import java.util.Scanner;
 
@@ -63,6 +65,7 @@
       }
   }
   ```
+
   ```java
   public class Car {
       private int speed;

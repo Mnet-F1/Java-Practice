@@ -1,7 +1,7 @@
 - 문제
   **자동차에 주유를 해보자**
   - 출력예시
-  ![Alt text](image-2.png)
+    ![Alt text](./images/image-2.png)
 - 조건
   - 필요 클래스
     - Car
@@ -21,6 +21,7 @@
 - 힌트
   최대한 Car클래스 안에서 메소드를 쪼개어 모든 처리를 진행한다
 - 답
+
   ```java
   import java.util.Scanner;
 
@@ -38,6 +39,7 @@
       }
   }
   ```
+
   ```java
   public class Car {
       private int gas;
